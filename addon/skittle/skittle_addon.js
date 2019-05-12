@@ -25,8 +25,10 @@ styleElement.innerText = `
     left: 0;
     position: fixed;
     z-index: 500;
-    height: 100%;
+    height: 0;
     width: 100%;
+    overflow:visible;
+    pointer-events:none;
     background: rgba(0, 0, 0, 0);
 }
 
